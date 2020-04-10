@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.c
+c:\users\20175251\desktop\circular_buffer\project1\source.c(30): warning C4133: '=': incompatible types - from 'int *' to 'Buffer *'
+c:\users\20175251\desktop\circular_buffer\project1\source.c(60): warning C4133: '=': incompatible types - from 'Buffer *' to 'int *'
+c:\users\20175251\desktop\circular_buffer\project1\source.c(65): warning C4133: '=': incompatible types - from 'Buffer *' to 'int *'
+c:\users\20175251\desktop\circular_buffer\project1\source.c(70): warning C4098: 'writeTOBuffer': 'void' function returning a value
+c:\users\20175251\desktop\circular_buffer\project1\source.c(80): warning C4133: '=': incompatible types - from 'int *' to 'Buffer *'
+c:\users\20175251\desktop\circular_buffer\project1\source.c(98): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\20175251\desktop\circular_buffer\project1\source.c(98): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\20175251\desktop\circular_buffer\project1\source.c(98): note: the missing variadic argument 2 is required by format string '%c'
+  c:\users\20175251\desktop\circular_buffer\project1\source.c(98): note: this argument is used as a buffer size
+  Project1.vcxproj -> C:\Users\20175251\Desktop\Circular_Buffer\Debug\Circular Buffer.exe
